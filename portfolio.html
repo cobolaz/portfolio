@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kay Gee | Portfolio</title>
+
+  <!-- Fonts, icons, CSS links would go here -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">YourName</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Hi, I'm Your Name</h1>
+        <p>Front-End Developer • Designer • Problem Solver</p>
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </section>
+  </header>
+
+  <!-- About Section -->
+  <main>
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          (To be written)
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>AI Stock Broker</h3>
+            <p>Examines the market and makes the most interesting decisions.</p>
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">Source Code</a>
+          </article>
+
+          <article class="project-card">
+            <h3>Jazz Album</h3>
+            <p>Everyone likes jazz. So do I.</p>
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">Source Code</a>
+          </article>
+
+          <!-- Add more project-card blocks as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML &amp; CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>UI/UX Basics</li>
+          <!-- Add or adjust skills -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Interested in working together or just saying hi? Reach out below.</p>
+        <form action="#" method="post" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Kay Gee. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <script>
+    // Simple script to keep the year current
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
